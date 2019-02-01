@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BackgroundGenerator.cs" />
     <Compile Include="Assets\Scripts\CamreaController.cs" />
+    <Compile Include="Assets\Scripts\CollisionDetection.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/wsnwsn321/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
