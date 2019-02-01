@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
         MoveInX();
         if (TouchOrClick())
         {
-            //MoveInY();
+            MoveInY();
         }
     }
     private void FixedUpdate()
