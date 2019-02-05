@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float YSpeed = 10;
     public float XSpeed = 2;
+    public Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,11 +16,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //sprite starts to move immediately
-        MoveInX();
-        if (TouchOrClick())
+        if (Input.GetKeyUp(KeyCode.Space))
         {
-            MoveInY();
+            MakeTheObjectsGoUp();
         }
     }
     private void FixedUpdate()
@@ -34,6 +33,10 @@ public class PlayerController : MonoBehaviour
     void MoveInY()
     {
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, YSpeed);
+    }
+    public void MakeTheObjectsGoUp()
+    {
+        Physics.gravity = new Vector3(0f, 1f, 0f);
     }
 
     bool TouchOrClick()
