@@ -62,9 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BackgroundGenerator.cs" />
     <Compile Include="Assets\Scripts\CamreaController.cs" />
+    <Compile Include="Assets\Scripts\circlePlayer.cs" />
     <Compile Include="Assets\Scripts\cirlePlayerControl.cs" />
     <Compile Include="Assets\Scripts\CollisionDetection.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\cowboy.cs" />
+    <Compile Include="Assets\Scripts\PlyaerController.cs" />
     <Compile Include="Assets\Scripts\rotator.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
