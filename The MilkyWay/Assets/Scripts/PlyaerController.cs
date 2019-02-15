@@ -23,15 +23,15 @@ public class PlyaerController : MonoBehaviour
             Destroy(col.gameObject);
         }         if (col.gameObject.tag == "stick")
         {
-            Vector2 direction = col.transform.position - transform.position;
-                isGrounded = true;
-
-
+                        isGrounded = true;
         }
 
     }
     void OnCollisionExit2D(Collision2D col)
     {
-        isGrounded = false;
+        if (col.gameObject.tag == "stick")
+        {
+            isGrounded = false;
+        }
     }
 }

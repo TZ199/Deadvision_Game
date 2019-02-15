@@ -6,7 +6,7 @@
       <File FileName="Assets/Scripts/CollisionDetection.cs" Line="18" Column="1" />
       <File FileName="Assets/Scripts/rotator.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/circlePlayer.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/PlyaerController.cs" Line="7" Column="14" />
+      <File FileName="Assets/Scripts/PlyaerController.cs" Line="37" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

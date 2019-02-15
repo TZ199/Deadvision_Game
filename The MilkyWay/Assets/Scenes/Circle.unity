@@ -671,17 +671,17 @@ PrefabInstance:
     - target: {fileID: 7844180891120482729, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
       propertyPath: m_TagString
-      value: stick
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1362395101016339793, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.63123196
+      value: -0.025169194
       objectReference: {fileID: 0}
     - target: {fileID: 1362395101016339793, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5370979
+      value: 1.7041508
       objectReference: {fileID: 0}
     - target: {fileID: 1362395101016339793, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
@@ -701,12 +701,12 @@ PrefabInstance:
     - target: {fileID: 1362395101016339793, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9999981
+      value: -0.95887995
       objectReference: {fileID: 0}
     - target: {fileID: 1362395101016339793, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0019458234
+      value: -0.28381208
       objectReference: {fileID: 0}
     - target: {fileID: 1362395101016339793, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
@@ -726,12 +726,12 @@ PrefabInstance:
     - target: {fileID: 1362395101016339793, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -179.77701
+      value: -212.976
       objectReference: {fileID: 0}
     - target: {fileID: 5339561435007877070, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
       propertyPath: rotateSpeed
-      value: -30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5339561435007877070, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
         type: 3}
@@ -832,6 +832,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142996858807277905, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077113058234015389, guid: 81ff9527a8d9b464e91977e7d1a1fcbb,
+        type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7901189639274889157, guid: 81ff9527a8d9b464e91977e7d1a1fcbb, type: 3}

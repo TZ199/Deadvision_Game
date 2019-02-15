@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    
 
 
     void Update()

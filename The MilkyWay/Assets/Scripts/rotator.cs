@@ -15,6 +15,7 @@ public class rotator : MonoBehaviour
     // Update is called once per frame s
     void Update()
     {
+
         transform.RotateAround(anchor.transform.position, Vector3.forward, rotateSpeed * Time.deltaTime);
     }
 }

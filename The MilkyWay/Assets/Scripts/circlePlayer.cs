@@ -13,6 +13,7 @@ public class circlePlayer: MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
     }
 
     void    Update()
