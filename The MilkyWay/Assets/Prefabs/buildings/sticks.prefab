@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8954361262206920669}
   - component: {fileID: 8708913227684530066}
-  - component: {fileID: 2174606306488011999}
+  - component: {fileID: 2806643949351235355}
   m_Layer: 0
   m_Name: sticks
-  m_TagString: stick
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5724329154239500102}
   m_LocalRotation: {x: -0, y: -0, z: 0.42349318, w: 0.9058993}
   m_LocalPosition: {x: -1.22, y: 0.59, z: 0.4981901}
-  m_LocalScale: {x: 3.7423, y: 0.22519045, z: 1.4493716}
+  m_LocalScale: {x: 3, y: 0.25, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2174606306488011999
+--- !u!61 &2806643949351235355
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,7 +89,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5724329154239500102}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1573136acdef143fa93941ec232eb055, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
