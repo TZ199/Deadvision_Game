@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2246993904780321061}
   m_Layer: 0
   m_Name: circle player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b4e2bbac3d7664ab8b0506300bd95d1a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c9883da95c27c4e599a314b53696505a, type: 3}
   m_Color: {r: 1, g: 0.045223214, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,4 +134,4 @@ MonoBehaviour:
   jumpForce: 6
   speed: -0.5
   isGrounded: 0
-  rb: {fileID: 0}
+  rb: {fileID: 2141031429887807927}
