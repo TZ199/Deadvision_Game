@@ -9,6 +9,7 @@ TagManager:
   - lady
   - switch
   - floor
+  - text
   layers:
   - Default
   - TransparentFX
