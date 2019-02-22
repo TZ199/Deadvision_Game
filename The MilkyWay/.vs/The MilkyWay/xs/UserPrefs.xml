@@ -13,6 +13,9 @@
       <File FileName="Assets/Scripts/rotator.cs" Line="15" Column="41" />
       <File FileName="Assets/Scripts/PlayerController.cs" Line="6" Column="2" />
       <File FileName="Assets/Scripts/spikeToDeath.cs" Line="8" Column="4" />
+<<<<<<< HEAD
+>>>>>>> parent of 9d43a0a... push level 1, added more folder
+=======
 >>>>>>> parent of 9d43a0a... push level 1, added more folder
     </Files>
   </MonoDevelop.Ide.Workbench>
