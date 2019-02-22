@@ -5,17 +5,26 @@ using UnityEngine;
 public class PlyaerController : MonoBehaviour
 {
     public float jumpForce = 2.0f;
-    public float speed = 0.5f;     public bool isGrounded;     public Rigidbody2D rb;
+    public float speed = 0.5f;     public bool isGrounded;
+    public GameObject gameover;     public Rigidbody2D rb;
+    public bool dead;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        dead = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)         {             rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode2D.Impulse);              isGrounded = false;         }
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded&&!dead)         {             rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode2D.Impulse);              isGrounded = false;         }
+
+        if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5)
+        {
+            gameover.SetActive(true);
+            dead = true;
+        }
     }
     void OnCollisionEnter2D(Collision2D col)
     {
