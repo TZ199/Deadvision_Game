@@ -84,16 +84,13 @@
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
 /reference:"/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
@@ -223,7 +220,7 @@
 /define:UNITY_2018_1_OR_NEWER
 /define:UNITY_2018_2_OR_NEWER
 /define:UNITY_2018_3_OR_NEWER
-/define:UNITY_2018_3_4
+/define:UNITY_2018_3_2
 /define:UNITY_2018_3
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
@@ -314,20 +311,20 @@
 /define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs"
-"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs"
+"/Users/weiyongzhi/Documents/GitHub/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs"
