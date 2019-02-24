@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-	"process_id" : 20394,
+	"process_id" : 21118,
 	"version" : "2018.3.2f1",
-=======
-	"process_id" : 1218,
-	"version" : "2018.3.4f1",
->>>>>>> 36d8af801ec68ed7222290e8d3fd59653191d25e
 	"app_path" : "/Applications/Unity/Unity.app",
 	"app_contents_path" : "/Applications/Unity/Unity.app/Contents"
 }

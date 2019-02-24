@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Assembly-CSharp.dll"
+/out:"Temp/Unity.TextMeshPro.dll"
 /debug:portable
 /optimize-
 /nostdlib+
@@ -69,19 +69,29 @@
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
+/reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+/reference:"/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+/reference:"/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
 /reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 /reference:"/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
@@ -210,12 +220,13 @@
 /define:UNITY_2018_1_OR_NEWER
 /define:UNITY_2018_2_OR_NEWER
 /define:UNITY_2018_3_OR_NEWER
-/define:UNITY_2018_3_4
+/define:UNITY_2018_3_2
 /define:UNITY_2018_3
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
 /define:UNITY_64
 /define:UNITY_INCLUDE_TESTS
+/define:UNITY_ANALYTICS
 /define:ENABLE_AUDIO
 /define:ENABLE_CACHING
 /define:ENABLE_CLOTH
@@ -300,15 +311,48 @@
 /define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"Assets/Scripts/BackgroundGenerator.cs"
-"Assets/Scripts/CamreaController.cs"
-"Assets/Scripts/circlePlayer.cs"
-"Assets/Scripts/cirlePlayerControl.cs"
-"Assets/Scripts/CollisionDetection.cs"
-"Assets/Scripts/cowboy.cs"
-"Assets/Scripts/level1_switch1.cs"
-"Assets/Scripts/PlyaerController.cs"
-"Assets/Scripts/rotator.cs"
-"Assets/Scripts/rui_switch_1.cs"
-"Assets/Scripts/SpikeDead.cs"
-"Assets/Scripts/UIManager.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/FastAction.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/MaterialReferenceManager.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/PackageResourceImporterWindow.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextContainer.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshPro.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshProUGUI.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Asset.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ColorGradient.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Compatibility.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_CoroutineTween.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_DefaultControls.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_FontAsset.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputValidator.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_LineInfo.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ListPool.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_MaterialManager.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_MeshInfo.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ObjectPool.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ScrollbarEventHandler.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SelectionCaret.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Settings.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Sprite.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAnimator.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAsset.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Style.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_StyleSheet.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SubMesh.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SubMeshUI.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextElement.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextInfo.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextUtilities.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateManager.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateRegistery.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_XmlTagStack.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ExtensionMethods.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_Private.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ShaderUtilities.cs"
+"/Users/ruijin/Desktop/CS526/Deadvision_Game/The MilkyWay/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_UGUI_Private.cs"
