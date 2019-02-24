@@ -31,11 +31,7 @@ public class PlyaerController : MonoBehaviour
                     isGrounded = false;
                 }
 
-                if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5)
-                {
-                    gameover.SetActive(true);
-                    dead = true;
-                }
+          
             }
             else
             {
@@ -44,9 +40,10 @@ public class PlyaerController : MonoBehaviour
             }
 
         }
-        else
+        if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5)
         {
-
+            gameover.SetActive(true);
+            dead = true;
         }
 
     }
