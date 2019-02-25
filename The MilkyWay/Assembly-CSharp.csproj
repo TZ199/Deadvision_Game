@@ -73,6 +73,8 @@
     <Compile Include="Assets\Scripts\SpikeDead.cs" />
     <Compile Include="Assets\Scripts\ts.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\switch1.cs" />
+    <Compile Include="Assets\switch2_rui.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/wsnwsn321/Desktop/Deadvision_Game/The MilkyWay/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

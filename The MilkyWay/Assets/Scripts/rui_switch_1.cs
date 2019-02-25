@@ -18,10 +18,8 @@ public class rui_switch_1 : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            Vector3 pos = new Vector3(com.transform.position.x,com.transform.position.y-1,transform.position.z);
-            com.transform.position = pos;
+            Destroy(com);
         }
-     
 
     }
 }
