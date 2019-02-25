@@ -6,14 +6,11 @@ public class PlyaerController : MonoBehaviour
 {
     public float jumpForce = 2.0f;
     public float speed = 0.5f;     public bool isGrounded;
-<<<<<<< HEAD
     public GameObject gameover;
+
     public GameObject restart;     public Rigidbody2D rb;
-    public bool dead,gameStart;
-=======
-    public GameObject gameover;     public Rigidbody2D rb;
     public bool dead,gameStart,canJump;
->>>>>>> 28f3fd777fec5937c1b2c7a09d5a44193c7ba23e
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +19,7 @@ public class PlyaerController : MonoBehaviour
         gameStart = false;
         canJump = true;
         rb.gravityScale = 0;
-        restart.SetActive(false);
+       
     }
 
     // Update is called once per frame
