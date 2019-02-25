@@ -52,7 +52,7 @@ public class PlyaerController : MonoBehaviour
         if (col.gameObject.tag == "star")
         {
             Destroy(col.gameObject);
-        }         if (col.gameObject.tag == "stick"|| col.gameObject.tag == "switch" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
+        }         if (col.gameObject.tag == "switch" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
         {
             isGrounded = true;
         }
