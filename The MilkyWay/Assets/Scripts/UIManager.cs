@@ -15,5 +15,10 @@ public class UIManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
+    }
+
 
 }

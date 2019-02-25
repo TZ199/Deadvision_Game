@@ -6,6 +6,7 @@ public class SpikeDead : MonoBehaviour
 {
     public PlyaerController player;
     public GameObject gameover;
+    public GameObject restart;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class SpikeDead : MonoBehaviour
         {
             player.dead = true;
             gameover.SetActive(true);
+            restart.SetActive(true);
         }
 
 
