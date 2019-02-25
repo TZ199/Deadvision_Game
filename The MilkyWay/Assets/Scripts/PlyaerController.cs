@@ -6,15 +6,21 @@ public class PlyaerController : MonoBehaviour
 {
     public float jumpForce = 2.0f;
     public float speed = 0.5f;     public bool isGrounded;
+<<<<<<< HEAD
     public GameObject gameover;
     public GameObject restart;     public Rigidbody2D rb;
     public bool dead,gameStart;
+=======
+    public GameObject gameover;     public Rigidbody2D rb;
+    public bool dead,gameStart,canJump;
+>>>>>>> 28f3fd777fec5937c1b2c7a09d5a44193c7ba23e
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         dead = false;
         gameStart = false;
+        canJump = true;
         rb.gravityScale = 0;
         restart.SetActive(false);
     }
@@ -26,11 +32,11 @@ public class PlyaerController : MonoBehaviour
         {
             if (gameStart)
             {
-                if (isGrounded && !dead)
+                if (isGrounded && !dead&&canJump)
                 {
                     rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode2D.Impulse);
-
                     isGrounded = false;
+                    canJump = false;
                 }
 
           
@@ -55,9 +61,10 @@ public class PlyaerController : MonoBehaviour
         if (col.gameObject.tag == "star")
         {
             Destroy(col.gameObject);
-        }         if (col.gameObject.tag == "switch" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
+        }         if (col.gameObject.tag == "stick"||col.gameObject.tag == "switch" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
         {
             isGrounded = true;
+            canJump = true;
         }
         if (col.gameObject.tag == "star")
         {
@@ -73,9 +80,11 @@ public class PlyaerController : MonoBehaviour
     }
     void OnCollisionExit2D(Collision2D col)
     {
+
         if (col.gameObject.tag == "stick" || col.gameObject.tag == "switch" || col.gameObject.tag == "floor" || col.gameObject.tag == "star")
         {
-            isGrounded = false;
+            print("left");
+            StartCoroutine(delayjump());
         }
     }
 
@@ -86,4 +95,12 @@ public class PlyaerController : MonoBehaviour
             isGrounded = true;
         }
     }
+    IEnumerator delayjump()
+    {
+        print(Time.time);
+        yield return new WaitForSeconds(0.3f);
+        isGrounded = false;
+        print(Time.time);
+    }
+
 }
