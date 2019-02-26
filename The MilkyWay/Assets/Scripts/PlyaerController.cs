@@ -6,11 +6,8 @@ public class PlyaerController : MonoBehaviour
 {
     public float jumpForce = 2.0f;
     public float speed = 0.5f;     public bool isGrounded;
-    public GameObject gameover;
-
-    public GameObject restart;     public Rigidbody2D rb;
+    public GameObject gameover;     public Rigidbody2D rb;
     public bool dead,gameStart,canJump;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +16,6 @@ public class PlyaerController : MonoBehaviour
         gameStart = false;
         canJump = true;
         rb.gravityScale = 0;
-       
     }
 
     // Update is called once per frame
@@ -48,7 +44,6 @@ public class PlyaerController : MonoBehaviour
         if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5)
         {
             gameover.SetActive(true);
-            restart.SetActive(true);
             dead = true;
         }
 
