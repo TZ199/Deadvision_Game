@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8954361262206920669}
   - component: {fileID: 8708913227684530066}
   - component: {fileID: 2806643949351235355}
+  - component: {fileID: 4228275252932438364}
   m_Layer: 0
   m_Name: sticks
   m_TagString: stick
@@ -106,3 +107,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4228275252932438364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5724329154239500102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab8604bf2953446b960acf2f002f889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

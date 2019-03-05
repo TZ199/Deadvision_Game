@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlyaerController : MonoBehaviour
+public class collisionDetect : MonoBehaviour
 {
     public float jumpForce = 2.0f;
-    public float speed = 0.5f;     public bool isGrounded;
-    public GameObject gameover;     public Rigidbody2D rb;
-    public bool dead,gameStart,canJump;
-    public GameObject bottomCollider;
+    public float speed = 0.5f;
+    public bool isGrounded;
+    public GameObject gameover;
+    public Rigidbody2D rb;
+    public bool dead, gameStart, canJump;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = transform.parent.parent.GetComponent<Rigidbody2D>();
         dead = false;
         gameStart = false;
         canJump = true;
@@ -26,14 +27,14 @@ public class PlyaerController : MonoBehaviour
         {
             if (gameStart)
             {
-                if (isGrounded && !dead&&canJump)
+                if (isGrounded && !dead && canJump)
                 {
                     rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode2D.Impulse);
                     isGrounded = false;
                     canJump = false;
                 }
 
-          
+
             }
             else
             {
@@ -55,11 +56,10 @@ public class PlyaerController : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
-            if (col.gameObject.tag == "switch" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
+        if (col.gameObject.tag == "stick" || col.gameObject.tag == "switch" || col.gameObject.tag == "floor" || col.gameObject.tag == "star")
         {
-                isGrounded = true;
-                canJump = true;
-          
+            isGrounded = true;
+            canJump = true;
         }
         if (col.gameObject.tag == "star")
         {
@@ -97,5 +97,4 @@ public class PlyaerController : MonoBehaviour
         isGrounded = false;
         print(Time.time);
     }
-
 }
