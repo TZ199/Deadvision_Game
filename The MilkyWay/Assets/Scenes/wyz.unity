@@ -125,13 +125,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33523275}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf4eda6201d442b4832e2e573e5facf, type: 3}
+  m_Script: {fileID: 11500000, guid: 702f4c41d2a2244d6a206f6eee926fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  player: {fileID: 428610519}
+  success: {fileID: 2101066305}
 --- !u!1001 &53966282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -560,7 +560,7 @@ PrefabInstance:
     - target: {fileID: 5724329154239500102, guid: 0a9db3f01ca44421799691e9674ba1bf,
         type: 3}
       propertyPath: m_Name
-      value: sticks
+      value: lady
       objectReference: {fileID: 0}
     - target: {fileID: 8954361262206920669, guid: 0a9db3f01ca44421799691e9674ba1bf,
         type: 3}
@@ -642,7 +642,8 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 1573136acdef143fa93941ec232eb055, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4228275252932438364, guid: 0a9db3f01ca44421799691e9674ba1bf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0a9db3f01ca44421799691e9674ba1bf, type: 3}
 --- !u!1 &428610515 stripped
 GameObject:
