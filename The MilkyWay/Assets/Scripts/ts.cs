@@ -17,11 +17,15 @@ public class ts : MonoBehaviour
        
     }
 
+
+
+
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Player")
         {
-            player.transform.Translate(new Vector3(0.0f, -2.7f, 0.0f), Space.Self);
+            
+            player.transform.Translate(new Vector3(6.5f, 0.7f, 0.0f)*0.5f, Space.World);
         }
 
 
