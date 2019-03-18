@@ -55,7 +55,7 @@ public class PlyaerController : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
-            if (col.gameObject.tag == "switch" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
+            if (col.gameObject.tag == "switch"|| col.gameObject.tag == "stick" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
         {
                 isGrounded = true;
                 canJump = true;
