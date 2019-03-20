@@ -25,7 +25,7 @@ public class transform3 : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
 
-            player.transform.Translate(new Vector3(2.8f, -9f, 0.0f) * 0.5f, Space.World);
+            player.transform.Translate(new Vector3(1.0f, 11.0f, 0.0f) * 0.5f, Space.World);
         }
 
 
