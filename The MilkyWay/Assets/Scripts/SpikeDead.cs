@@ -6,6 +6,7 @@ public class SpikeDead : MonoBehaviour
 {
     public PlyaerController player;
     public GameObject gameover;
+    public GameSuccess gs;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class SpikeDead : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Player"&&!gs.ended)
         {
             player.dead = true;
             gameover.SetActive(true);

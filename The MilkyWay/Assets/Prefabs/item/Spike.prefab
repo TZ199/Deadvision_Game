@@ -95,6 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   gameover: {fileID: 0}
+  gs: {fileID: 0}
 --- !u!60 &2232990438015681480
 PolygonCollider2D:
   m_ObjectHideFlags: 0

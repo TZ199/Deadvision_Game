@@ -10,6 +10,7 @@ public class PlyaerController : MonoBehaviour
     public GameObject gameover;     public Rigidbody2D rb;
     public bool dead,gameStart,canJump;
     public GameObject bottomCollider;
+    public GameSuccess gs;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,8 +45,9 @@ public class PlyaerController : MonoBehaviour
             }
 
         }
-        if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5)
+        if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5&&!gs.ended)
         {
+
             gameover.SetActive(true);
             dead = true;
         }
