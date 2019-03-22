@@ -6,6 +6,8 @@ public class GameSuccess : MonoBehaviour
 {
     public PlyaerController player;
     public GameObject success;
+    public GameObject fail;
+    public int totalStar;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,15 @@ public class GameSuccess : MonoBehaviour
     {
         if (col.gameObject.tag == "Player"&&!player.dead)
         {
- 
-            success.SetActive(true);
+            if (player.count == totalStar)
+            {
+                success.SetActive(true);
+            }
+            else
+            {
+                fail.SetActive(true);
+            }
+
         }
     }
 }
