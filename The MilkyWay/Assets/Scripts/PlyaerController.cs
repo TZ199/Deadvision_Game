@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlyaerController : MonoBehaviour
 {
+    public int count;
     public float jumpForce = 2.0f;
     public float speed = 0.5f;     public bool isGrounded;
     public GameObject gameover;     public Rigidbody2D rb;
@@ -12,6 +13,7 @@ public class PlyaerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        count = 0;
         rb = GetComponent<Rigidbody2D>();
         dead = false;
         gameStart = false;
@@ -64,6 +66,7 @@ public class PlyaerController : MonoBehaviour
         if (col.gameObject.tag == "star")
         {
             //pop up the go to next level window
+            count++;
         }
         if (col.gameObject.tag == "switch")
         {
