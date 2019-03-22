@@ -78,7 +78,6 @@ public class PlyaerController : MonoBehaviour
 
         if (col.gameObject.tag == "stick" || col.gameObject.tag == "switch" || col.gameObject.tag == "floor" || col.gameObject.tag == "star")
         {
-            print("left");
             StartCoroutine(delayjump());
         }
     }
@@ -92,10 +91,8 @@ public class PlyaerController : MonoBehaviour
     }
     IEnumerator delayjump()
     {
-        print(Time.time);
         yield return new WaitForSeconds(0.3f);
         isGrounded = false;
-        print(Time.time);
     }
 
 }

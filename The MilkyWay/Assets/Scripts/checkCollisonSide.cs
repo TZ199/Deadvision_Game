@@ -19,7 +19,7 @@ public class checkCollisonSide : MonoBehaviour
     {
         if (col.gameObject.tag == "Player"&& col.GetType()== typeof(EdgeCollider2D))
         {
-            print("entered");
+            //print("entered");
             player.canJump = true;
             player.isGrounded = true;
         }
