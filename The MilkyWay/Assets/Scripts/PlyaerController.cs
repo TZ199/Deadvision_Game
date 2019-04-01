@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlyaerController : MonoBehaviour
 {
+    public static int totalcount=0;
     public int count;
     public float jumpForce = 2.0f;
-    public float speed = 0.5f;     public bool isGrounded;
+    public bool isGrounded;
     public GameObject gameover;     public Rigidbody2D rb;
     public bool dead,gameStart,canJump;
     public GameObject bottomCollider;
     public GameSuccess gs;
+    public Text countText;
+    private Vector3 jumpDirection;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +25,7 @@ public class PlyaerController : MonoBehaviour
         gameStart = false;
         canJump = true;
         rb.gravityScale = 0;
+        countText.text = "total count:" + totalcount;
     }
 
     // Update is called once per frame
@@ -59,21 +65,37 @@ public class PlyaerController : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
-            if (col.gameObject.tag == "switch"|| col.gameObject.tag == "stick" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
+
+        if (col.gameObject.tag == "stick" || col.gameObject.tag == "floor")
         {
+            Vector3 collisionPoint = col.contacts[0].point;
+            if (collisionPoint.y < transform.position.y)
+            {
                 isGrounded = true;
                 canJump = true;
-          
+            }
+           
+
         }
+
+
+        //if (col.gameObject.tag == "switch"|| col.gameObject.tag == "stick" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
+        //{
+        //        isGrounded = true;
+        //        canJump = true;
+          
+        //}
         if (col.gameObject.tag == "star")
         {
             //pop up the go to next level window
             count++;
+            totalcount++;
+            countText.text = "total count:" + totalcount;
         }
         if (col.gameObject.tag == "switch")
         {
             //pop up the go to next level window
-            rb.AddForce(new Vector3(speed, 0, 0), ForceMode2D.Impulse);
+            //rb.AddForce(direction, ForceMode2D.Impulse);
         }
 
 

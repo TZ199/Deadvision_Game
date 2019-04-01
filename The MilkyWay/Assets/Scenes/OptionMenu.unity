@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 306192748}
   - component: {fileID: 306192747}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: level3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 1085136994}
   - component: {fileID: 1085136993}
   m_Layer: 5
-  m_Name: Button
+  m_Name: level1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -701,6 +701,7 @@ GameObject:
   - component: {fileID: 1213529288}
   - component: {fileID: 1213529287}
   - component: {fileID: 1213529286}
+  - component: {fileID: 1213529290}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -791,6 +792,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1213529290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213529285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d10e604dcf2411c94152c8a03ea993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level2: {fileID: 2077558036}
+  level3: {fileID: 306192747}
 --- !u!1 &1746753815
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +977,7 @@ GameObject:
   - component: {fileID: 2077558037}
   - component: {fileID: 2077558036}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: level2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
