@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlyaerController : MonoBehaviour
 {
-    public static int totalcount=0;
+    public static int totalcount;
     public int count;
     public float jumpForce = 2.0f;
     public bool isGrounded;
@@ -64,6 +64,9 @@ public class PlyaerController : MonoBehaviour
         if (col.gameObject.tag == "star")
         {
             Destroy(col.gameObject);
+            count++;
+            totalcount++;
+            countText.text = "total count:" + totalcount;
         }
 
         if (col.gameObject.tag == "stick" || col.gameObject.tag == "floor")
@@ -79,19 +82,6 @@ public class PlyaerController : MonoBehaviour
         }
 
 
-        //if (col.gameObject.tag == "switch"|| col.gameObject.tag == "stick" || col.gameObject.tag == "floor"|| col.gameObject.tag == "star")
-        //{
-        //        isGrounded = true;
-        //        canJump = true;
-          
-        //}
-        if (col.gameObject.tag == "star")
-        {
-            //pop up the go to next level window
-            count++;
-            totalcount++;
-            countText.text = "total count:" + totalcount;
-        }
         if (col.gameObject.tag == "switch")
         {
             //pop up the go to next level window
