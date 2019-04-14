@@ -5,27 +5,22 @@ using UnityEngine.UI;
 
 public class PlyaerController : MonoBehaviour
 {
-    public static int totalcount;
-    public int count;
     public float jumpForce = 2.0f;
     public bool isGrounded;
     public GameObject gameover;     public Rigidbody2D rb;
     public bool dead,gameStart,canJump;
     public GameObject bottomCollider;
     public GameSuccess gs;
-    public Text countText;
     private Vector3 jumpDirection;
 
     // Start is called before the first frame update
     void Start()
     {
-        count = 0;
         rb = GetComponent<Rigidbody2D>();
         dead = false;
         gameStart = false;
         canJump = true;
         rb.gravityScale = 0;
-        countText.text = "total count:" + totalcount;
     }
 
     // Update is called once per frame
@@ -64,9 +59,6 @@ public class PlyaerController : MonoBehaviour
         if (col.gameObject.tag == "star")
         {
             Destroy(col.gameObject);
-            count++;
-            totalcount++;
-            countText.text = "total count:" + totalcount;
         }
 
         if (col.gameObject.tag == "stick" || col.gameObject.tag == "floor")

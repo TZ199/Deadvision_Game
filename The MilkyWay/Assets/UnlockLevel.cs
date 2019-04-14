@@ -17,13 +17,6 @@ public class UnlockLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlyaerController.totalcount < 2)
-        {
-            level2.interactable = false;
-        }
-        if (PlyaerController.totalcount < 4)
-        {
-            level3.interactable = false;
-        }
+
     }
 }

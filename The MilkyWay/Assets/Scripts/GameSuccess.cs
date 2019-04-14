@@ -25,14 +25,6 @@ public class GameSuccess : MonoBehaviour
         if (col.gameObject.tag == "Player"&&!player.dead)
         {
             ended = true;
-            if (player.count == totalStar)
-            {
-                success.SetActive(true);
-            }
-            else
-            {
-                fail.SetActive(true);
-            }
 
         }
     }
