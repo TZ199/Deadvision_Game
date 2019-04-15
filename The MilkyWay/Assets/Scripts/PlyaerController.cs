@@ -12,6 +12,7 @@ public class PlyaerController : MonoBehaviour
     public GameObject bottomCollider;
     public GameSuccess gs;
     private Vector3 jumpDirection;
+    public int currentStar;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class PlyaerController : MonoBehaviour
         gameStart = false;
         canJump = true;
         rb.gravityScale = 0;
+        currentStar = 0;
     }
 
     // Update is called once per frame
@@ -46,18 +48,23 @@ public class PlyaerController : MonoBehaviour
             }
 
         }
-        if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5&&!gs.ended)
+        if(this.gameObject.name != "controller")
         {
+            if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5 && !gs.ended)
+            {
 
-            gameover.SetActive(true);
-            dead = true;
+                gameover.SetActive(true);
+                dead = true;
+            }
         }
+       
 
     }
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "star")
         {
+            currentStar++;
             Destroy(col.gameObject);
         }
 
