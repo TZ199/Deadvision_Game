@@ -693,6 +693,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2088530590}
     m_Modifications:
+    - target: {fileID: 8951837225784443805, guid: 9ce2fb735e3744c7799c1b8719ab6d49,
+        type: 3}
+      propertyPath: m_Name
+      value: star
+      objectReference: {fileID: 0}
     - target: {fileID: 8951837225784443804, guid: 9ce2fb735e3744c7799c1b8719ab6d49,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -762,11 +767,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.0876775
-      objectReference: {fileID: 0}
-    - target: {fileID: 8951837225784443805, guid: 9ce2fb735e3744c7799c1b8719ab6d49,
-        type: 3}
-      propertyPath: m_Name
-      value: star
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce2fb735e3744c7799c1b8719ab6d49, type: 3}
@@ -919,7 +919,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.30980393, g: 0.34509805, b: 0.43529412, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -2153,6 +2153,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 787700723}
     m_Modifications:
+    - target: {fileID: 8951837225784443805, guid: 9ce2fb735e3744c7799c1b8719ab6d49,
+        type: 3}
+      propertyPath: m_Name
+      value: star
+      objectReference: {fileID: 0}
     - target: {fileID: 8951837225784443804, guid: 9ce2fb735e3744c7799c1b8719ab6d49,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2217,11 +2222,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8951837225784443805, guid: 9ce2fb735e3744c7799c1b8719ab6d49,
-        type: 3}
-      propertyPath: m_Name
-      value: star
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce2fb735e3744c7799c1b8719ab6d49, type: 3}

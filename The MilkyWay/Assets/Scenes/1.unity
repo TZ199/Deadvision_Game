@@ -569,7 +569,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.30980393, g: 0.34509805, b: 0.43529412, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -832,18 +832,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 187225877281348616, guid: 447b711bb5d484366b5cf2a031a7ef3b,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 84a3cd0cd4cba448d8ae93c1a289833a,
+        type: 3}
     - target: {fileID: 187225877574413096, guid: 447b711bb5d484366b5cf2a031a7ef3b,
         type: 3}
       propertyPath: m_Text
       value: Next Level
       objectReference: {fileID: 0}
     - target: {fileID: 187225877574413096, guid: 447b711bb5d484366b5cf2a031a7ef3b,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 84a3cd0cd4cba448d8ae93c1a289833a,
-        type: 3}
-    - target: {fileID: 187225877281348616, guid: 447b711bb5d484366b5cf2a031a7ef3b,
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
@@ -962,17 +962,17 @@ PrefabInstance:
     - target: {fileID: 4587151359998149779, guid: 77f900f1103a44b51b24c4fecd5329a4,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.4509804
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4587151359998149779, guid: 77f900f1103a44b51b24c4fecd5329a4,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.4627451
+      value: 0.49019608
       objectReference: {fileID: 0}
     - target: {fileID: 4587151359998149779, guid: 77f900f1103a44b51b24c4fecd5329a4,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.7176471
+      value: 0.67058825
       objectReference: {fileID: 0}
     - target: {fileID: 4587151359998149779, guid: 77f900f1103a44b51b24c4fecd5329a4,
         type: 3}
