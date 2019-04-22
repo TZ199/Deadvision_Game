@@ -13,6 +13,9 @@ public class PlyaerController : MonoBehaviour
     public GameSuccess gs;
     private Vector3 jumpDirection;
     public int currentStar;
+    private AudioSource source;
+    public AudioClip shootSound;
+    public AudioClip jump;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,8 @@ public class PlyaerController : MonoBehaviour
         canJump = true;
         rb.gravityScale = 0;
         currentStar = 0;
+        source = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -34,6 +39,7 @@ public class PlyaerController : MonoBehaviour
             {
                 if (isGrounded && !dead&&canJump)
                 {
+                    source.PlayOneShot(jump, 1);
                     rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode2D.Impulse);
                     isGrounded = false;
                     canJump = false;
@@ -66,6 +72,7 @@ public class PlyaerController : MonoBehaviour
         {
             currentStar++;
             Destroy(col.gameObject);
+            source.PlayOneShot(shootSound, 1);
         }
 
         if (col.gameObject.tag == "stick" || col.gameObject.tag == "floor")
@@ -100,7 +107,7 @@ public class PlyaerController : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D col)
     {
-        if (col.gameObject.tag == "stick")
+        if (col.gameObject.tag == "stick"|| col.gameObject.tag == "floor")
         {
             isGrounded = true;
         }

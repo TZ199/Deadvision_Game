@@ -7,10 +7,15 @@ public class SpikeDead : MonoBehaviour
     public PlyaerController player;
     public GameObject gameover;
     public GameSuccess gs;
+    private AudioSource source;
+    public AudioClip shootSound;
+    private bool play;
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
+        play = true;
+
     }
 
     // Update is called once per frame
@@ -23,8 +28,14 @@ public class SpikeDead : MonoBehaviour
     {
         if (col.gameObject.tag == "Player"&&!gs.ended)
         {
+            if (play)
+            {
+                source.PlayOneShot(shootSound, 1);
+                play = false;
+            }
             player.dead = true;
             gameover.SetActive(true);
+
         }
 
 
