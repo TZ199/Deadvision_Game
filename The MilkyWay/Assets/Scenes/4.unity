@@ -2907,22 +2907,22 @@ PrefabInstance:
     - target: {fileID: 5491974202083522150, guid: 2257125b6b0934e30914b4bcf1ce2c0f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 436
+      value: 601
       objectReference: {fileID: 0}
     - target: {fileID: 5491974202083522150, guid: 2257125b6b0934e30914b4bcf1ce2c0f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -471
+      value: -474
       objectReference: {fileID: 0}
     - target: {fileID: 3776294389189608549, guid: 2257125b6b0934e30914b4bcf1ce2c0f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 436
+      value: 601
       objectReference: {fileID: 0}
     - target: {fileID: 3776294389189608549, guid: 2257125b6b0934e30914b4bcf1ce2c0f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 442
+      value: 473
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2257125b6b0934e30914b4bcf1ce2c0f, type: 3}
