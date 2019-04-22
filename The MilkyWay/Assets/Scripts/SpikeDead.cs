@@ -28,7 +28,7 @@ public class SpikeDead : MonoBehaviour
     {
         if (col.gameObject.tag == "Player"&&!gs.ended)
         {
-            if (play)
+            if (play&&!player.dead)
             {
                 source.PlayOneShot(shootSound, 1);
                 play = false;

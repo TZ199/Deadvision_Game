@@ -16,7 +16,8 @@ public class PlyaerController : MonoBehaviour
     private AudioSource source;
     public AudioClip shootSound;
     public AudioClip jump;
-
+    public AudioClip sw;
+    public AudioClip lose;
     // Start is called before the first frame update
     void Start()
     {
@@ -58,9 +59,13 @@ public class PlyaerController : MonoBehaviour
         {
             if (transform.position.x < -5 || transform.position.x > 5 || transform.position.y < -5 && !gs.ended)
             {
+                if (!dead)
+                {
+                    source.PlayOneShot(lose, 1);
+                    gameover.SetActive(true);
+                    dead = true;
+                }
 
-                gameover.SetActive(true);
-                dead = true;
             }
         }
        
@@ -90,8 +95,7 @@ public class PlyaerController : MonoBehaviour
 
         if (col.gameObject.tag == "switch")
         {
-            //pop up the go to next level window
-            //rb.AddForce(direction, ForceMode2D.Impulse);
+            source.PlayOneShot(sw, 1);
         }
 
 

@@ -141,6 +141,8 @@ MonoBehaviour:
   currentStar: 0
   shootSound: {fileID: 8300000, guid: 2d484e4c78c174d66a6a85746ac27c1e, type: 3}
   jump: {fileID: 8300000, guid: 70137785001a9445cb6c0d827e17c614, type: 3}
+  sw: {fileID: 8300000, guid: bf5264187730947d98d706b59218f0c5, type: 3}
+  lose: {fileID: 8300000, guid: c70079e49590c439b8af49bf7db16dd0, type: 3}
 --- !u!58 &19620291
 CircleCollider2D:
   m_ObjectHideFlags: 0

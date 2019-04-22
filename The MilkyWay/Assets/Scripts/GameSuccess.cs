@@ -10,7 +10,8 @@ public class GameSuccess : MonoBehaviour
     public bool ended;
     public int totalStar;
     private AudioSource source;
-    public AudioClip shootSound;
+    public AudioClip win;
+    public AudioClip lose;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,15 +28,17 @@ public class GameSuccess : MonoBehaviour
     {
         if (col.gameObject.tag == "Player"&&!player.dead)
         {
+            player.dead = true;
             ended = true;
             if (player.currentStar == totalStar)
             {
                 success.SetActive(true);
-                source.PlayOneShot(shootSound, 1);
+                source.PlayOneShot(win, 1);
             }
             else
             {
                 fail.SetActive(true);
+                source.PlayOneShot(lose, 1);
             }
 
         }

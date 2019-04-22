@@ -205,7 +205,8 @@ MonoBehaviour:
   fail: {fileID: 0}
   ended: 0
   totalStar: 0
-  shootSound: {fileID: 8300000, guid: e5506a30f65184e159644f1465f9b980, type: 3}
+  win: {fileID: 8300000, guid: e9d96d9692f9d4c538fa0a2b7da017f2, type: 3}
+  lose: {fileID: 8300000, guid: c70079e49590c439b8af49bf7db16dd0, type: 3}
 --- !u!82 &5926560560597174145
 AudioSource:
   m_ObjectHideFlags: 0

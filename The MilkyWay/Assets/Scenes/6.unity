@@ -1307,6 +1307,11 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7033755659757510829, guid: 34ccbcd29939342b5a07b7c76ec75a53,
+        type: 3}
+      propertyPath: Priority
+      value: 39
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34ccbcd29939342b5a07b7c76ec75a53, type: 3}
 --- !u!1001 &384995552
@@ -3131,6 +3136,7 @@ MonoBehaviour:
   fail: {fileID: 100693254}
   ended: 0
   totalStar: 1
+  shootSound: {fileID: 0}
 --- !u!1001 &1390808173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3987,6 +3993,11 @@ PrefabInstance:
       propertyPath: m_Points.Array.data[70].y
       value: -2.94
       objectReference: {fileID: 0}
+    - target: {fileID: 7033755659757510829, guid: 34ccbcd29939342b5a07b7c76ec75a53,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34ccbcd29939342b5a07b7c76ec75a53, type: 3}
 --- !u!1001 &1498113311
@@ -4243,6 +4254,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4228275252932438364, guid: 0a9db3f01ca44421799691e9674ba1bf,
+        type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b8019cb978ab547f6b81fb121fce59f4, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a9db3f01ca44421799691e9674ba1bf, type: 3}
 --- !u!1001 &1674963120
