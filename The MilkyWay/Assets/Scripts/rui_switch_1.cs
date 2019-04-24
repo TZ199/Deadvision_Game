@@ -18,6 +18,7 @@ public class rui_switch_1 : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
+            this.transform.GetChild(1).gameObject.SetActive(true);
             Destroy(com);
         }
 

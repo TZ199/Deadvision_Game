@@ -61,7 +61,9 @@ public class PlyaerController : MonoBehaviour
             {
                 if (!dead)
                 {
+                    source.pitch = 2;
                     source.PlayOneShot(lose, 1);
+                    source.pitch = 1;
                     gameover.SetActive(true);
                     dead = true;
                 }
