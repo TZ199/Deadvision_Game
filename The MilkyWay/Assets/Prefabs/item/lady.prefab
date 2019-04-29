@@ -206,7 +206,7 @@ MonoBehaviour:
   ended: 0
   totalStar: 0
   win: {fileID: 8300000, guid: e9d96d9692f9d4c538fa0a2b7da017f2, type: 3}
-  lose: {fileID: 8300000, guid: c70079e49590c439b8af49bf7db16dd0, type: 3}
+  lose: {fileID: 8300000, guid: 25a4afd66ef50460da7761e23fbf5086, type: 3}
 --- !u!82 &5926560560597174145
 AudioSource:
   m_ObjectHideFlags: 0
